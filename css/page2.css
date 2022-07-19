@@ -3,15 +3,11 @@ html, body {
     width: 100%;
   }
 
-.btn {
+button {
   border: none;
   background-color: Blue;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
   display: inline-block;
-}
-
-.whlNum {
-    color: green;
 }
