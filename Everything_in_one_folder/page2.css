@@ -2,3 +2,12 @@ html, body {
     height: 100%;
     width: 100%;
   }
+
+button {
+  border: none;
+  background-color: Blue;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
