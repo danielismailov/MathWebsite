@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family:"Arial Rounded", Helvetica, Arial, sans-serif;
+    color:white;
+    background-image: radial-gradient(circle,#88AAFF, #4466FF);
+  }
+@font-face {
+  font-family: "Arial Rounded";
+  src: url('ARLRDBD.ttf');
+}
+header{
+  font-size: 50px;
+  border-style: none none solid none;
+  border-width: 1px;
+  font-family: "Arial Rounded", Helvetica, Arial, sans-serif;
+  color:white;
+}
+
+
+button {
+  display: inline-block;
+  width: 25%;
+  border: none;
+  color:white;
+  padding: 14px 28px;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+  position:absolute;
+  font-family:"Arial Rounded", Helvetica, Aria, sans-serif;
+  border-radius: 25px;
+  margin:5px;
+  text-shadow: 2px 2px #000000;
+  box-shadow: 2px 2px #000000;
+
+}
+button#easy{
+  background-image: radial-gradient(circle,lime,green);
+  left:50%;top:25%; transform: translate(-50%, -50%);
+}
+button#medium{
+  background-image: radial-gradient(circle,yellow,#aaaa00);
+  left:50%;top:50%; transform: translate(-50%, -50%);
+}
+button#hard{
+  background-image: radial-gradient(circle,red,darkred);
+  left:50%;top:75%; transform: translate(-50%, -50%);
+}
