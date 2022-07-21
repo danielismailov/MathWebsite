@@ -47,3 +47,15 @@ button#hard{
   background-image: radial-gradient(circle,red,darkred);
   left:50%;top:75%; transform: translate(-50%, -50%);
 }
+#easy:hover{
+  background-image: radial-gradient(circle, #14c904, #085202);
+  color:#c9c9c9;
+}
+#medium:hover{
+  background-image: radial-gradient(circle, #c6c904, #7e8003);
+  color:#c9c9c9;
+}
+#hard:hover{
+  background-image: radial-gradient(circle, #c40404, #7d0202);
+  color:#c9c9c9;
+}
