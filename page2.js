@@ -1,12 +1,12 @@
 
-function whlnum (){
+function whl (){
     localStorage.setItem('numType', 'Whole Numbers');
 }
 
-function decimal (){
+function dec (){
     localStorage.setItem('numType', 'Decimals');
 }
 
-function fraction (){
+function frac (){
     localStorage.setItem('numType', 'Fractions');
 }
