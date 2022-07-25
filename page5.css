@@ -1,51 +1,51 @@
 html, body {
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(#757575, #cfcfcf);
-  }
-  
-  @font-face {
-    font-family:"Arial Rounded";
-    src: url(ARLRDBD.ttf);
-  }
-  
-  header{
-    font-size: 50px;
-    border-style: none none solid none;
-    border-width: 1px;
-    font-family: "Arial Rounded";
-    color:white;
-    text-align: center;
-  }
-  
-  h1{
-    color:cyan;
-    font-size:150px;
-    font-family:"Arial Rounded";
-    text-align:center;
-  }
-  
-  h2{
-    color:white;
-    font-family: "Arial Rounded";
-    font-size:60px;
-    text-align:center;
-  }
-  
-  button {
-    display: inline-block;
-    width: 30%;
-    height: 15%;
-    border: none;
-    color:white;
-    padding: 14px 28px;
-    font-size: 40px;
-    cursor: pointer;
-    text-align: center;
-    position:relative;
-    left:35%;
-    border-radius: 25px;
-    margin:5px;
-    background: green
-  }
-  
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(#757575, #cfcfcf);
+}
+
+@font-face {
+  font-family:"Arial Rounded";
+  src: url(ARLRDBD.ttf);
+}
+
+header{
+  font-size: 50px;
+  border-style: none none solid none;
+  border-width: 1px;
+  font-family: "Arial Rounded";
+  color:white;
+  text-align: center;
+}
+
+p{
+  color:cyan;
+  font-size:150px;
+  font-family:"Arial Rounded";
+  text-align:center;
+}
+
+h2{
+  color:white;
+  font-family: "Arial Rounded";
+  font-size:60px;
+  text-align:center;
+}
+
+button {
+  display: inline-block;
+  width: 30%;
+  height: 15%;
+  border: none;
+  color:white;
+  padding: 14px 28px;
+  font-size: 40px;
+  cursor: pointer;
+  text-align: center;
+  position:relative;
+  left:35%;
+  border-radius: 25px;
+  margin:5px;
+  background: green;
+  font-family:"Arial Rounded";
+}
