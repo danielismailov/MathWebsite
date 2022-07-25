@@ -5,17 +5,18 @@ html, body {
   color:white;
   background-image: radial-gradient(circle,#88AAFF, #4466FF);
 }
+
 @font-face {
 font-family: "Arial Rounded";
 src: url('ARLRDBD.ttf');
 }
+
 header{
 font-size: 50px;
 border-style: none none solid none;
 border-width: 1px;
 color:white;
 }
-
 
 button {
 display: inline-block;
@@ -32,20 +33,38 @@ border-radius: 25px;
 margin:5px;
 text-shadow: 2px 2px #000000;
 box-shadow: 10px 10px 5px #000000;
-
 }
+
 button#easy{
 background-image: radial-gradient(circle,lime,green);
 left:50%;top:25%; transform: translate(-50%, -50%);
 }
+
+#easy:hover{
+background-image: radial-gradient(circle, #14c904, #085202);
+color:#c9c9c9;
+}
+
 button#medium{
 background-image: radial-gradient(circle,yellow,#aaaa00);
 left:50%;top:50%; transform: translate(-50%, -50%);
 }
+
+#medium:hover{
+background-image: radial-gradient(circle, #c6c904, #7e8003);
+color:#c9c9c9;
+}
+
 button#hard{
 background-image: radial-gradient(circle,red,darkred);
 left:50%;top:75%; transform: translate(-50%, -50%);
 }
+
+#hard:hover{
+background-image: radial-gradient(circle, #c40404, #7d0202);
+color:#c9c9c9;
+}
+
 button#goback{
 padding:2px 2px;
 font-size: 20px;
@@ -54,18 +73,7 @@ background:darkgray;
 width:10%;
 top:90%;
 }
-#easy:hover{
-background-image: radial-gradient(circle, #14c904, #085202);
-color:#c9c9c9;
-}
-#medium:hover{
-background-image: radial-gradient(circle, #c6c904, #7e8003);
-color:#c9c9c9;
-}
-#hard:hover{
-background-image: radial-gradient(circle, #c40404, #7d0202);
-color:#c9c9c9;
-}
+
 #goback:hover{
 background:#595959;
 color:#c9c9c9;
