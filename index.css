@@ -1,0 +1,79 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(#2d7372, #51c4c2, #ffffff);
+}
+
+@font-face {
+  font-family:"Arial Rounded";
+  src: url(ARLRDBD.ttf);
+}
+
+header{
+  font-size: 50px;
+  border-style: none none solid none;
+  border-width: 1px;
+  font-family: "Arial Rounded";
+  color:white;
+  text-align: center;
+}
+
+h2{
+  text-align:center;
+  color:white;
+  font-family: "Arial Rounded";
+}
+
+button {
+  display: inline-block;
+  width: 40%;
+  height: 32%;
+  border: none;
+  color:white;
+  padding: 14px 28px;
+  font-size: 150px;
+  cursor: pointer;
+  text-align: center;
+  position:relative;
+  left:10%;
+  border-radius: 25px;
+  margin:5px;
+}
+
+#addition{
+  background-image: linear-gradient(green, #11ff00, green);
+  box-shadow: 10px 10px 5px #081f03;
+}
+
+#subtraction{
+  background-image: linear-gradient(#c90000, #ff0000, #c90000);
+  box-shadow: 10px 10px 5px #1f0304;
+}
+
+button#multiplication{
+  background-image: linear-gradient(#02a39d, cyan, #02a39d);
+  box-shadow: 10px 10px 5px #032421;
+}
+
+button#division{
+  background-image: linear-gradient(#d9c21a, #ffe100, #d9c21a);
+  box-shadow: 10px 10px 5px #242303;
+}
+
+#addition:hover{
+  background-image: linear-gradient(#043d01, #066901, #043d01);
+  color:#c9c9c9;
+}
+#subtraction:hover{
+  background-image:linear-gradient(#80000b, #bf0010, #80000b);
+  color:#c9c9c9;
+}
+
+#multiplication:hover{
+  background-image:linear-gradient(#006961, #00bfb2, #006961); 
+  color:#c9c9c9;
+}
+#division:hover{
+  background-image:linear-gradient(#666601, #a6a600, #666601); 
+  color:#c9c9c9;
+}
