@@ -1,16 +1,16 @@
 
 function add (){
-    localStorage.setItem('operator', 'Addition');
+    localStorage.setItem('operator', 'add');
 }
 
 function sub (){
-    localStorage.setItem('operator', 'Subtraction');
+    localStorage.setItem('operator', 'sub');
 }
 
 function mul (){
-    localStorage.setItem('operator', 'Multiply');
+    localStorage.setItem('operator', 'mul');
 }
 
 function div (){
-    localStorage.setItem('operator', 'Divide');
+    localStorage.setItem('operator', 'div');
 }

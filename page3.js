@@ -1,11 +1,11 @@
 function easy (){
-    localStorage.setItem('difficulty', 'Easy');
+    localStorage.setItem('difficulty', 'easy');
 }
 
 function medium (){
-    localStorage.setItem('difficulty', 'Medium');
+    localStorage.setItem('difficulty', 'medium');
 }
 
 function hard (){
-    localStorage.setItem('difficulty', 'Hard');
+    localStorage.setItem('difficulty', 'hard');
 }
