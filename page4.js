@@ -25,8 +25,8 @@ dec4 = Math.floor(Math.random() * (1000 - 10) + 10) / 100;
 dec5 = Math.floor(Math.random() * (10000 - 10) + 10) / 1000;
 dec6 = Math.floor(Math.random() * (10000 - 10) + 10) / 1000;
 
-frac1 = fraction((Math.floor(Math.random()*10)),((Math.floor(Math.random()*9)+1)));
-frac2 = fraction((Math.floor(Math.random()*10)),((Math.floor(Math.random()*9)+1)));
+frac1 = fraction((Math.floor(Math.random()*9)+1),((Math.floor(Math.random()*9)+1)));
+frac2 = fraction((Math.floor(Math.random()*9)+1),((Math.floor(Math.random()*9)+1)));
 frac3 = fraction((Math.floor(Math.random()*90)+10),((Math.floor(Math.random()*89)+11)));
 frac4 = fraction((Math.floor(Math.random()*90)+10),((Math.floor(Math.random()*89)+11)));
 frac5 = fraction((Math.floor(Math.random()*900)+100),((Math.floor(Math.random()*899)+101)));
@@ -35,7 +35,7 @@ frac6 = fraction((Math.floor(Math.random()*900)+100),((Math.floor(Math.random()*
 if(operator==="add"){
   if(numType==="whl"){
     if(difficulty==="easy"){             
-      document.getElementById("question").innerHTML = (addition(Math.floor(Math.random()*10),Math.floor(Math.random()*10)));
+      document.getElementById("question").innerHTML = (addition(Math.floor(Math.random()*9)+1,Math.floor(Math.random()*9)+1));
     }else if(difficulty==="medium"){
       document.getElementById("question").innerHTML = (addition(Math.floor(Math.random()*90)+10,Math.floor(Math.random()*90)+10));
     }else if(difficulty==="hard"){
@@ -60,11 +60,11 @@ if(operator==="add"){
 }else if(operator==="sub"){
   if(numType==="whl"){
     if(difficulty==="easy"){              
-      document.getElementById("question").innerHTML = (subtraction(Math.floor(Math.random()*10),Math.floor(Math.random()*10)));
+      document.getElementById("question").innerHTML = (subtraction(Math.floor(Math.random()*9)+1,Math.floor(Math.random()*9)+1));
     }else if(difficulty==="medium"){
-      document.getElementById("question").innerHTML = (subtraction(Math.floor(Math.random()*100),Math.floor(Math.random()*100)));
+      document.getElementById("question").innerHTML = (subtraction(Math.floor(Math.random()*90)+10,Math.floor(Math.random()*90)+10));
     }else if(difficulty==="hard"){
-      document.getElementById("question").innerHTML = (subtraction(Math.floor(Math.random()*1000),Math.floor(Math.random()*1000)));
+      document.getElementById("question").innerHTML = (subtraction(Math.floor(Math.random()*900)+100,Math.floor(Math.random()*900)+100));
     }
   }else if(numType==="dec"){
     if(difficulty==="easy"){
@@ -85,11 +85,11 @@ if(operator==="add"){
 }else if(operator==="mul"){
   if(numType==="whl"){
     if(difficulty==="easy"){              
-      document.getElementById("question").innerHTML = (multiplication(Math.floor(Math.random()*10),Math.floor(Math.random()*10)));
+      document.getElementById("question").innerHTML = (multiplication(Math.floor(Math.random()*9)+1,Math.floor(Math.random()*9)+1));
     }else if(difficulty==="medium"){
-      document.getElementById("question").innerHTML = (multiplication(Math.floor(Math.random()*100),Math.floor(Math.random()*100)));
+      document.getElementById("question").innerHTML = (multiplication(Math.floor(Math.random()*90)+10,Math.floor(Math.random()*90)+10));
     }else if(difficulty==="hard"){
-      document.getElementById("question").innerHTML = (multiplication(Math.floor(Math.random()*1000),Math.floor(Math.random()*1000)));
+      document.getElementById("question").innerHTML = (multiplication(Math.floor(Math.random()*900)+100,Math.floor(Math.random()*900)+100));
     }
   }else if(numType==="dec"){
     if(difficulty==="easy"){
@@ -110,11 +110,11 @@ if(operator==="add"){
 }else if(operator="div"){
     if(numType==="whl"){
     if(difficulty==="easy"){              
-      document.getElementById("question").innerHTML = (division(Math.floor(Math.random()*10),Math.floor(Math.random()*10)));
+      document.getElementById("question").innerHTML = (division(Math.floor(Math.random()*9)+1,Math.floor(Math.random()*9)+1));
     }else if(difficulty==="medium"){
-      document.getElementById("question").innerHTML = (division(Math.floor(Math.random()*100),Math.floor(Math.random()*100)));
+      document.getElementById("question").innerHTML = (division(Math.floor(Math.random()*90)+10,Math.floor(Math.random()*90)+10));
     }else if(difficulty==="hard"){
-      document.getElementById("question").innerHTML = (division(Math.floor(Math.random()*1000),Math.floor(Math.random()*1000)));
+      document.getElementById("question").innerHTML = (division(Math.floor(Math.random()*900)+100,Math.floor(Math.random()*900)+100));
     }
   }else if(numType==="dec"){
     if(difficulty==="easy"){
