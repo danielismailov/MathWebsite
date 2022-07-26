@@ -34,7 +34,7 @@ frac6 = fraction((Math.floor(Math.random()*1000)),((Math.floor(Math.random()*999
 
 if(operator===add){
   if(numType===whl){
-    if(difficulty===easy){              
+    if(difficulty===easy){             
       document.getElementById("question").innerHTML = (addition(Math.floor(Math.random()*10),Math.floor(Math.random()*10)));
     }else if(difficulty===medium){
       document.getElementById("question").innerHTML = (addition(Math.floor(Math.random()*100),Math.floor(Math.random()*100)));
