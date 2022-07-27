@@ -49,3 +49,7 @@ button {
   background: green;
   font-family:"Arial Rounded";
 }
+button:hover {
+  color:darkgray;
+  background: #006600;
+}

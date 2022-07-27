@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   width: 100%;
   background-image: linear-gradient(#757575, #cfcfcf);
+  background-attachment: fixed;
 }
 
 @font-face {
@@ -22,7 +23,15 @@ p{
   color:white;
   font-size:100px;
   font-family:"Arial Rounded";
+  position: relative;
+  background:gray;
+  padding:3%;
+  padding-right:10%;
+  border-radius:25px;
+  width:fit-content;
   text-align:center;
+  left:49.5%;
+  transform: translate(-50%);
 }
 
 h2{
@@ -48,4 +57,8 @@ button {
   margin:5px;
   background: green;
   font-family:"Arial Rounded";
+}
+button:hover {
+  color:darkgray;
+  background: #006600;
 }

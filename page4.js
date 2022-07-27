@@ -18,6 +18,13 @@ let operator = localStorage.getItem("operator");
 let numType = localStorage.getItem("numType");
 let difficulty = localStorage.getItem("difficulty");
 
+whl1 = Math.floor(Math.random()*9)+1
+whl2 = Math.floor(Math.random()*9)+1
+whl3 = Math.floor(Math.random()*90)+10
+whl4 = Math.floor(Math.random()*90)+10
+whl5 = Math.floor(Math.random()*900)+100
+whl6 = Math.floor(Math.random()*900)+100
+
 dec1 = Math.floor(Math.random() * (100 - 10) + 10) / 10;
 dec2 = Math.floor(Math.random() * (100 - 10) + 10) / 10;
 dec3 = Math.floor(Math.random() * (1000 - 10) + 10) / 100;
@@ -35,11 +42,11 @@ frac6 = fraction((Math.floor(Math.random()*900)+100),((Math.floor(Math.random()*
 if(operator==="add"){
   if(numType==="whl"){
     if(difficulty==="easy"){             
-      document.getElementById("question").innerHTML = (addition(Math.floor(Math.random()*9)+1,Math.floor(Math.random()*9)+1));
+      document.getElementById("question").innerHTML = (addition(whl1, whl2));
     }else if(difficulty==="medium"){
-      document.getElementById("question").innerHTML = (addition(Math.floor(Math.random()*90)+10,Math.floor(Math.random()*90)+10));
+      document.getElementById("question").innerHTML = (addition(whl3, whl4));
     }else if(difficulty==="hard"){
-      document.getElementById("question").innerHTML = (addition(Math.floor(Math.random()*900)+100,Math.floor(Math.random()*900)+100));
+      document.getElementById("question").innerHTML = (addition(whl5, whl6));
     }
   }else if(numType==="dec"){
     if(difficulty==="easy"){
@@ -60,11 +67,11 @@ if(operator==="add"){
 }else if(operator==="sub"){
   if(numType==="whl"){
     if(difficulty==="easy"){              
-      document.getElementById("question").innerHTML = (subtraction(Math.floor(Math.random()*9)+1,Math.floor(Math.random()*9)+1));
+      document.getElementById("question").innerHTML = (subtraction(whl1, whl2));
     }else if(difficulty==="medium"){
-      document.getElementById("question").innerHTML = (subtraction(Math.floor(Math.random()*90)+10,Math.floor(Math.random()*90)+10));
+      document.getElementById("question").innerHTML = (subtraction(whl3, whl4));
     }else if(difficulty==="hard"){
-      document.getElementById("question").innerHTML = (subtraction(Math.floor(Math.random()*900)+100,Math.floor(Math.random()*900)+100));
+      document.getElementById("question").innerHTML = (subtraction(whl5, whl6));
     }
   }else if(numType==="dec"){
     if(difficulty==="easy"){
@@ -85,11 +92,11 @@ if(operator==="add"){
 }else if(operator==="mul"){
   if(numType==="whl"){
     if(difficulty==="easy"){              
-      document.getElementById("question").innerHTML = (multiplication(Math.floor(Math.random()*9)+1,Math.floor(Math.random()*9)+1));
+      document.getElementById("question").innerHTML = (multiplication(whl1, whl2));
     }else if(difficulty==="medium"){
-      document.getElementById("question").innerHTML = (multiplication(Math.floor(Math.random()*90)+10,Math.floor(Math.random()*90)+10));
+      document.getElementById("question").innerHTML = (multiplication(whl3, whl4));
     }else if(difficulty==="hard"){
-      document.getElementById("question").innerHTML = (multiplication(Math.floor(Math.random()*900)+100,Math.floor(Math.random()*900)+100));
+      document.getElementById("question").innerHTML = (multiplication(whl5, whl6));
     }
   }else if(numType==="dec"){
     if(difficulty==="easy"){
@@ -110,11 +117,11 @@ if(operator==="add"){
 }else if(operator="div"){
     if(numType==="whl"){
     if(difficulty==="easy"){              
-      document.getElementById("question").innerHTML = (division(Math.floor(Math.random()*9)+1,Math.floor(Math.random()*9)+1));
+      document.getElementById("question").innerHTML = (division(whl1, whl2));
     }else if(difficulty==="medium"){
-      document.getElementById("question").innerHTML = (division(Math.floor(Math.random()*90)+10,Math.floor(Math.random()*90)+10));
+      document.getElementById("question").innerHTML = (division(whl3, whl4));
     }else if(difficulty==="hard"){
-      document.getElementById("question").innerHTML = (division(Math.floor(Math.random()*900)+100,Math.floor(Math.random()*900)+100));
+      document.getElementById("question").innerHTML = (division(whl5, whl5));
     }
   }else if(numType==="dec"){
     if(difficulty==="easy"){
