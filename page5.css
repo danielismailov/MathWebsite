@@ -25,14 +25,6 @@ p{
   font-size:150px;
   font-family:"Arial Rounded";
   position: relative;
-  background:#555;
-  padding:3%;
-  border-radius:25px;
-  width:fit-content;
-  text-align:center;
-  left:49.5%;
-  transform: translate(-50%);
-  margin-top:0%;
 }
 h2{
   color:white;
