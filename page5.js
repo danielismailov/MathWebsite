@@ -107,5 +107,5 @@ if(operator==="add"){
       }
     }
   }else{
-    document.getElementById("answer").innerHTML ="Error"
+    document.getElementById("answer").innerHTML = "Error"
   }
