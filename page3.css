@@ -66,12 +66,18 @@ color:#c9c9c9;
 }
 
 button#goback{
-padding:2px 2px;
-font-size: 20px;
-border-radius:3px;
-background:darkgray;
-width:10%;
-top:90%;
+  width: 20%;
+    font-size: 20px;
+    left:10%;
+    top:75%;
+    transform: translate(-50%, -50%);
+    color:white; 
+    background:darkgray;
+  }
+  
+#goback:hover{
+ color: darkgray;
+    background:gray
 }
 
 #goback:hover{
