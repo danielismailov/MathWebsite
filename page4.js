@@ -173,7 +173,7 @@ localStorage.setItem('suba3', whl5-whl6);
 localStorage.setItem('mula3', whl5*whl6);
 localStorage.setItem('diva3', whl5/whl6);
 
-localStorage.setItem('adda4', dec1+dec1);
+localStorage.setItem('adda4', dec1+dec2);
 localStorage.setItem('suba4', dec1-dec2);
 localStorage.setItem('mula4', dec1*dec2);
 localStorage.setItem('diva4', dec1/dec2);
@@ -184,7 +184,7 @@ localStorage.setItem('diva5', dec3/dec4);
 localStorage.setItem('adda6', dec5+dec6);
 localStorage.setItem('suba6', dec5-dec6);
 localStorage.setItem('mula6', dec5*dec6);
-localStorage.setItem('diva6', dec5/dec5);
+localStorage.setItem('diva6', dec5/dec6);
 
 localStorage.setItem('adda7', divide(numer1,denom1)+divide(numer2,denom2));
 localStorage.setItem('suba7', divide(numer1,denom1)-divide(numer2,denom2));
@@ -193,7 +193,7 @@ localStorage.setItem('diva7', divide(numer1,denom1)/divide(numer2,denom2));
 localStorage.setItem('adda8', divide(numer3,denom3)+divide(numer4,denom4));
 localStorage.setItem('suba8', divide(numer3,denom3)-divide(numer4,denom4));
 localStorage.setItem('mula8', divide(numer3,denom3)-divide(numer4,denom4));
-localStorage.setItem('diva8', divide(numer3,denom3)/divide(numer3,denom3));
+localStorage.setItem('diva8', divide(numer3,denom3)/divide(numer4,denom4));
 localStorage.setItem('adda9', divide(numer5,denom5)/divide(numer6,denom6));
 localStorage.setItem('suba9', divide(numer5,denom5)/divide(numer6,denom6));
 localStorage.setItem('mula9', divide(numer5,denom5)/divide(numer6,denom6));

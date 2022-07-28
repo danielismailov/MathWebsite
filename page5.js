@@ -85,7 +85,7 @@ if(operator==="add"){
       if(difficulty==="easy"){              
         document.getElementById("answer").innerHTML = localStorage.getItem('diva1');
       }else if(difficulty==="medium"){
-        document.getElementById("answer").innerHTML = localStorage.getItem('diva3');
+        document.getElementById("answer").innerHTML = localStorage.getItem('diva2');
       }else if(difficulty==="hard"){
         document.getElementById("answer").innerHTML = localStorage.getItem('diva3');
       }
